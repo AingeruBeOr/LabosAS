@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Soluciones</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+  body {
+    padding: 2cm; 
+  }
+}
+</style>
+
+<style type="text/css">
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #a67f59;
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">1. Configuración del entorno</h1>
+
+<p>El entorno se configurará igual que se ha explicado en las transparencias de clase.</p>
+
+<h1 id="toc_1">2. Gestión básica</h1>
+
+<p>1.En el disco recién creado, crear 4 particiones de 1GB cada una y formatearlas: una de ellas será ext3, otra btrfs, otra xfs y última ext4.</p>
+
+<p>Utilizamos el comando <code>lsblk -e7</code> para ver con que nombre tenemos el disco.</p>
+
+<p>Utilizamos el comando <code>sudo cfdisk /dev/sdb</code> (nuestro disco está en <code>sdb</code> según el comando anterior) para crear las particiones. Seleccionamos GPT para crear las particiones.</p>
+
+<p>Comprobamos el resultado con <code>lsblk -e7</code>.</p>
+
+<p>Formateamos las particiones:</p>
+
+<ul>
+<li><code>sudo mkfs.ext3 /dev/sdb1</code></li>
+<li><code>sudo mkfs.btrfs /dev/sdb2</code></li>
+<li><code>sudo mkfs.xfs /dev/sdb3</code></li>
+<li><code>sudo mkfs.ext4 /dev/sdb4</code></li>
+</ul>
+
+<p>2.Configurar un montaje automático de las particiones (al arranque de la máquina virtual) en /disco[X] donde X es 1, 2, 3, 4. Se recomienda seguir estos pasos. Verificar que los montajes se mantienen al reiniciar la máquina.
+En caso de que la MV no arranque o no permita acceso vía SSH por problemas de configuración, se puede iniciar una terminal mínima llamada “consola serie” que provee acceso root para resolver incidencias.</p>
+
+<p>Seguimos las indicaciones de <a href="">https://cloud.google.com/compute/docs/disks/add-persistent-disk?hl=es-419#configuring<em>automatic</em>mounting<em>on</em>vm_restart</a></p>
+
+<p>Partición para sdb1:</p>
+
+<div><pre><code class="language-bash">sudo blkid /dev/sdb1
+# Output
+# /dev/sdb1: UUID=&quot;d61931b7-062a-4309-bf74-862229767a9d&quot; SEC_TYPE=&quot;ext2&quot; BLOCK_SIZE=&quot;4096&quot; TYPE=&quot;ext3&quot; PARTUUID=&quot;c5fe0757-22f3-6044-8ed8-c223e0fa559e&quot;</code></pre></div>
+
+<p>Añadimos la siguiente linea al archivo fstab:</p>
+
+<div><pre><code class="language-none">UUID=d61931b7-062a-4309-bf74-862229767a9d /disco1 ext3 discard,defaults,nofail 0 2</code></pre></div>
+
+<p>Partición para sdb2:</p>
+
+<div><pre><code class="language-bash">sudo blkid /dev/sdb2
+# Output
+/dev/sdb2: UUID=&quot;d4efab83-fb17-4a77-8da1-396292fc68b9&quot; UUID_SUB=&quot;84bf8f8a-d867-4cc3-9c26-e4ed370004f2&quot; BLOCK_SIZE=&quot;4096&quot; TYPE=&quot;btrfs&quot; PARTUUID=&quot;30fe7623-21f6-ce43-9fe1-1319eeb5a9fa&quot;</code></pre></div>
+
+<p>Añadimos la siguiente linea al archivo fstab:</p>
+
+<div><pre><code class="language-none">UUID=d4efab83-fb17-4a77-8da1-396292fc68b9 /disco2 btrfs discard,defaults,nofail 0 2</code></pre></div>
+
+<p>Partición para sdb3:</p>
+
+<div><pre><code class="language-bash">sudo blkid /dev/sdb3
+# Output
+/dev/sdb3: UUID=&quot;8769f3d5-e464-4f55-8e26-ffc7fb69a247&quot; BLOCK_SIZE=&quot;4096&quot; TYPE=&quot;xfs&quot; PARTUUID=&quot;ab2b188f-701f-1349-8c92-fe82090bd810&quot;</code></pre></div>
+
+<p>Añadimos la siguiente linea al archivo fstab:</p>
+
+<div><pre><code class="language-none">UUID=8769f3d5-e464-4f55-8e26-ffc7fb69a247 /disco3 xfs discard,defaults,nofail 0 2</code></pre></div>
+
+<p>Partición para sdb4:</p>
+
+<div><pre><code class="language-bash">sudo blkid /dev/sdb4
+# Output
+/dev/sdb4: UUID=&quot;76cb52cc-3c0f-4962-aa39-b40152ca551c&quot; BLOCK_SIZE=&quot;4096&quot; TYPE=&quot;ext4&quot; PARTUUID=&quot;60eb6d4c-2905-8d47-a4d4-c4269a764c1d&quot;</code></pre></div>
+
+<p>Añadimos la siguiente linea al archivo fstab:</p>
+
+<div><pre><code class="language-none">UUID=76cb52cc-3c0f-4962-aa39-b40152ca551c /disco4 ext4 discard,defaults,nofail 0 2</code></pre></div>
+
+<p>Reiniciamos la VM y comprobamos que se hayan montando los discos en los directorios especificados en <code>fstab</code>.</p>
+
+<p>3.¿Cuál de los sistemas de ficheros creados ocupa más espacio?</p>
+
+<p>Usando el comando <code>df -h</code> podemos ver cuál de los sistemas de ficheros ocupa más espacio. En nuestro caso es la partición formateada en <code>xfs</code>.</p>
+
+<p>4.¿Es posible acceder a una partición ext3 que ha sido montada como ext4? ¿Y al revés? ¿Por qué?</p>
+
+<p>Ambas versiones son compatibles entre sí así que no hay problema para acceder a una como la otra.</p>
+
+<p>5.Desmontar y borrar las 3 últimas particiones. Crear una única partición ext4 de 3 GB.</p>
+
+<p>Desmonatar las particiones:</p>
+
+<div><pre><code class="language-bash">sudo umount /disco2
+sudo umount /disco3
+sudo umount /disco4</code></pre></div>
+
+<p>Borramos las particones accediendo a la herramienta de particiones usando <code>sudo cfdisk /dev/sdb</code>.</p>
+
+<p>Creamos una partición de 3GB usando el mismo comando que accede a la herramienta de particiones.</p>
+
+<p>Formateamos la partición que acabamos de crear con <code>sudo mkfs.ext4 /dev/sdb2</code></p>
+
+<p>6.Copiar el contenido del directorio /var en la nueva partición ext4 que acabas de crear. Después, redimensionar la partición para que sea lo más pequeña posible.</p>
+
+<div><pre><code class="language-bash"># Montamos la partición en un directorio
+sudo mount -t ext4 /dev/sdb2 /disco2
+
+# Copiamos el contenido
+sudo cp -r /var/* /disco2
+
+# Desmontamos el sistema de archivos antes de reducirlo.
+umount /disco2
+
+# Antes de reducir el sistema de ficheros, nos ha pedido ejecutar este comando para comprobar que todo esté bien en el sistema de ficheros
+sudo e2fsck -f /dev/sdb2
+
+# Reducimos el tamaño del sistema de ficheros con resize2fs al mínimo. Para ello, la opción -M nos reduce el sistema de ficheros al mínimo.
+sudo resize2fs -M /dev/sdb2 # Se nos muestra que se ha reducido a 757184 el sistema de archivo.
+
+# Reducimos el tamaño de la partición con la herramienta cfdisk a 757184
+sudo cfdisk /dev/sdb
+
+# Comprobamos que se haya reducido el tamaño de la partición
+lsblk -e7
+
+# Nos ha pedido volver a crear el sistema de ficheros
+sudo mkfs.ext4 /dev/sdb2
+
+# Montamos la partición
+sudo mount -t ext4 /dev/sdb2 /disco2
+
+# Comprobamos el sistema de ficheros
+df -h</code></pre></div>
+
+<p>7.Eliminar la configuración de montaje automático realizada en el 2º paso.</p>
+
+<div><pre><code class="language-bash">sudo cp /etc/fstab.backup /etc/fstab</code></pre></div>
+
+<h1 id="toc_2">3. Comparativa de rendimiento</h1>
+
+<p>1.asdf
+2.asdf</p>
+
+<p><strong>3. En ambos discos, crear 1 partición de 4 GB y formatearla como Ext4. Montar la partición del disco balanceado en el directorio /discoBalanceado y la partición del disco SSD en el directorio /discoSSD. No es necesario configurar los montajes para que se realicen en el arranque del sistema.</strong></p>
+
+<p>Creamos y montamos las particiones como hemos hecho en el capítulo anterior.</p>
+
+<p>4.
+<strong>5. Instalar <code>fio</code> en el sistema siguiendo el comando que se indica en el artículo.</strong></p>
+
+<div><pre><code class="language-bash">sudo apt install fio</code></pre></div>
+
+<p><strong>6. Utilizar fio para realizar la siguiente prueba</strong></p>
+
+<div><pre><code class="language-bash">sudo fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --bs=4k --iodepth=64 --readwrite=randrw --rwmixread=75 --size=1G --filename=/discoBalanceado/testFile
+
+sudo fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --bs=4k --iodepth=64 --readwrite=randrw --rwmixread=75 --size=1G --filename=/discoSSD/testFile</code></pre></div>
+
+<p>Resultado para disco balanceado:</p>
+
+<div><pre><code class="language-none">test: (g=0): rw=randrw, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=64
+fio-3.28
+Starting 1 process
+test: Laying out IO file (1 file / 1024MiB)
+Jobs: 1 (f=1): [m(1)][100.0%][r=9509KiB/s,w=3207KiB/s][r=2377,w=801 IOPS][eta 00m:00s]
+test: (groupid=0, jobs=1): err= 0: pid=1865: Tue Sep 26 17:20:52 2023
+  read: IOPS=2434, BW=9740KiB/s (9974kB/s)(768MiB/80698msec)
+   bw (  KiB/s): min= 9192, max=42592, per=100.00%, avg=9749.55, stdev=2608.60, samples=161
+   iops        : min= 2298, max=10648, avg=2437.35, stdev=652.15, samples=161
+  write: IOPS=813, BW=3254KiB/s (3332kB/s)(256MiB/80698msec); 0 zone resets
+   bw (  KiB/s): min= 2840, max=14656, per=100.00%, avg=3256.45, stdev=914.46, samples=161
+   iops        : min=  710, max= 3664, avg=814.09, stdev=228.62, samples=161
+  cpu          : usr=2.17%, sys=6.85%, ctx=209771, majf=0, minf=8
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, &gt;=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, &gt;=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, &gt;=64=0.0%
+     issued rwts: total=196498,65646,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: bw=9740KiB/s (9974kB/s), 9740KiB/s-9740KiB/s (9974kB/s-9974kB/s), io=768MiB (805MB), run=80698-80698msec
+  WRITE: bw=3254KiB/s (3332kB/s), 3254KiB/s-3254KiB/s (3332kB/s-3332kB/s), io=256MiB (269MB), run=80698-80698msec
+
+Disk stats (read/write):
+  sdb: ios=196192/65563, merge=0/16, ticks=3850825/1288301, in_queue=5139127, util=99.97%</code></pre></div>
+
+<p>Resultado para disco SSD:</p>
+
+<div><pre><code class="language-none">test: (groupid=0, jobs=1): err= 0: pid=1886: Tue Sep 26 17:25:56 2023
+  read: IOPS=4929, BW=19.3MiB/s (20.2MB/s)(768MiB/39865msec)
+   bw (  KiB/s): min=18496, max=85016, per=100.00%, avg=19740.06, stdev=7440.58, samples=79
+   iops        : min= 4624, max=21256, avg=4934.97, stdev=1860.38, samples=79
+  write: IOPS=1646, BW=6587KiB/s (6745kB/s)(256MiB/39865msec); 0 zone resets
+   bw (  KiB/s): min= 5864, max=28368, per=100.00%, avg=6594.94, stdev=2487.68, samples=79
+   iops        : min= 1466, max= 7092, avg=1648.72, stdev=621.92, samples=79
+  cpu          : usr=3.77%, sys=12.02%, ctx=162627, majf=0, minf=8
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, &gt;=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, &gt;=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, &gt;=64=0.0%
+     issued rwts: total=196498,65646,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: bw=19.3MiB/s (20.2MB/s), 19.3MiB/s-19.3MiB/s (20.2MB/s-20.2MB/s), io=768MiB (805MB), run=39865-39865msec
+  WRITE: bw=6587KiB/s (6745kB/s), 6587KiB/s-6587KiB/s (6745kB/s-6745kB/s), io=256MiB (269MB), run=39865-39865msec
+
+Disk stats (read/write):
+  sdc: ios=196034/65499, merge=0/7, ticks=1896238/637171, in_queue=2533409, util=99.84%</code></pre></div>
+
+<p>Diferencias:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Disco balanceado</th>
+<th>Disco SSD</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Escritura</td>
+<td>9974kB/s</td>
+<td>20.2MB/s</td>
+</tr>
+<tr>
+<td>Lectura</td>
+<td>3332kB/s</td>
+<td>6745MB/s</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>7. Repetir la prueba anterior, esta vez utilizando una mezcla de 50% de operaciones de lectura y 50% de
+operaciones de escritura. ¿Varían los resultados respecto a la 1ª prueba?</strong></p>
+
+<div><pre><code class="language-bash">sudo fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --bs=4k --iodepth=64 --readwrite=randrw --rwmixread=50 --size=1G --filename=/discoBalanceado/testFile
+
+sudo fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --bs=4k --iodepth=64 --readwrite=randrw --rwmixread=50 --size=1G --filename=/discoSSD/testFile</code></pre></div>
+
+<p>Resultados para disco balanceado:</p>
+
+<div><pre><code class="language-none">test: (groupid=0, jobs=1): err= 0: pid=1897: Tue Sep 26 17:33:06 2023
+  read: IOPS=1623, BW=6494KiB/s (6650kB/s)(512MiB/80711msec)
+   bw (  KiB/s): min= 5976, max=28087, per=100.00%, avg=6500.81, stdev=1719.63, samples=161
+   iops        : min= 1494, max= 7021, avg=1625.20, stdev=429.85, samples=161
+  write: IOPS=1624, BW=6497KiB/s (6653kB/s)(512MiB/80711msec); 0 zone resets
+   bw (  KiB/s): min= 5904, max=29045, per=100.00%, avg=6502.59, stdev=1795.11, samples=161
+   iops        : min= 1476, max= 7261, avg=1625.65, stdev=448.76, samples=161
+  cpu          : usr=2.10%, sys=6.83%, ctx=194314, majf=0, minf=6
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, &gt;=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, &gt;=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, &gt;=64=0.0%
+     issued rwts: total=131040,131104,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: bw=6494KiB/s (6650kB/s), 6494KiB/s-6494KiB/s (6650kB/s-6650kB/s), io=512MiB (537MB), run=80711-80711msec
+  WRITE: bw=6497KiB/s (6653kB/s), 6497KiB/s-6497KiB/s (6653kB/s-6653kB/s), io=512MiB (537MB), run=80711-80711msec
+
+Disk stats (read/write):
+  sdb: ios=130946/131027, merge=0/16, ticks=2563344/2578756, in_queue=5142102, util=99.97%</code></pre></div>
+
+<p>Resultados para disco SSD:</p>
+
+<div><pre><code class="language-none">test: (groupid=0, jobs=1): err= 0: pid=1911: Tue Sep 26 17:35:25 2023
+  read: IOPS=3287, BW=12.8MiB/s (13.5MB/s)(512MiB/39864msec)
+   bw (  KiB/s): min=12048, max=38312, per=100.00%, avg=13170.13, stdev=3543.81, samples=79
+   iops        : min= 3012, max= 9578, avg=3292.53, stdev=885.95, samples=79
+  write: IOPS=3288, BW=12.8MiB/s (13.5MB/s)(512MiB/39864msec); 0 zone resets
+   bw (  KiB/s): min=12160, max=38328, per=100.00%, avg=13173.27, stdev=3538.96, samples=79
+   iops        : min= 3040, max= 9582, avg=3293.32, stdev=884.74, samples=79
+  cpu          : usr=3.10%, sys=10.44%, ctx=157467, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, &gt;=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, &gt;=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, &gt;=64=0.0%
+     issued rwts: total=131040,131104,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: bw=12.8MiB/s (13.5MB/s), 12.8MiB/s-12.8MiB/s (13.5MB/s-13.5MB/s), io=512MiB (537MB), run=39864-39864msec
+  WRITE: bw=12.8MiB/s (13.5MB/s), 12.8MiB/s-12.8MiB/s (13.5MB/s-13.5MB/s), io=512MiB (537MB), run=39864-39864msec
+
+Disk stats (read/write):
+  sdc: ios=130351/130410, merge=0/7, ticks=1247553/1278454, in_queue=2526008, util=99.86%</code></pre></div>
+
+<p>Diferencias:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Disco balanceado</th>
+<th>Disco SSD</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Escritura</td>
+<td>6650kB/s</td>
+<td>13.5MB/s</td>
+</tr>
+<tr>
+<td>Lectura</td>
+<td>6653kB/s</td>
+<td>13.5MB/s</td>
+</tr>
+</tbody>
+</table>
+
+<p>La velocidades de lectura y escritura son casi idénticas en cada disco.</p>
+
+<p><strong>8.Revisar el precio de los discos de tipo balanceado y SSD en Google Cloud. ¿La diferencia de precio es proporcional con la diferencia de rendimiento?</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>Disco</th>
+<th>Coste</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Balanceado</td>
+<td>0.110 $/mes</td>
+</tr>
+<tr>
+<td>SSD</td>
+<td>0.187 $/mes</td>
+</tr>
+</tbody>
+</table>
+
+<p>Teniendo en cuenta el ejercicio 7, el disco SSD ofrece un rendimiento 48,10% mayor. Comparando el precio, el precio del SSD es 58,82% mayor.</p>
+
+<p>Por lo tanto, la diferencia de precio es algo mayor al rendimiento que ofrece, proporcionalmente.</p>
+
+<p>9.</p>
+
+<h1 id="toc_3">4. Gestión avanzada</h1>
+
+<p>1.asdf</p>
+
+<p>2.asdf</p>
+
+<p><strong>3. Crear 2 particiones de 3 GB en cada disco. Crear un volumen lógico LVM con 3 de las 4 particiones. Crear una partición ext4 en el volumen usando el 100% de espacio.</strong></p>
+
+<div><pre><code class="language-bash"># Creamos las particiones como se indica. 
+# sdb
+# - sdb1
+# - sdb2
+# sdc
+# - sdc1
+# - sdc2
+
+# Crear los volúmens físicos
+sudo pvcreate -ff /dev/sdb1 /dev/sdb2 /dev/sdc1
+
+# Comprobamos que se hayan creado
+sudo pvdisplay
+
+# Crear un grupo de volúmenes a partir de los volúmenes físicos que hemos creado en el paso anterior
+sudo vgcreate grupo_vol /dev/sdb1 /dev/sdb2 /dev/sdc1
+
+# Comprobamos que se haya creado correctamente el grupo de volúmenes
+sudo vgdisplay
+
+# Creamos el volúmen lógico con el grupo de volúmenes que hemos creado anteriormente
+sudo lvcreate grupo_vol -l 100%FREE -n miVolumen
+
+# Comprobamos
+sudo lvdisplay
+
+# Utilizamos el 100% del volumen para formatearlo en ext4
+sudo mkfs.ext4 /dev/grupo_vol/miVolumen</code></pre></div>
+
+<p><strong>4. Montar el sistema de ficheros en un directorio y comprobar su estado. Para ello, copiar alguno de los directorios del sistema operativo a él.</strong></p>
+
+<div><pre><code class="language-bash"># Montamos el sistema de ficheros en un directorio
+sudo mkdir /lvm_labo
+sudo mount -t ext4 /dev/grupo_vol/miVolumen /lvm_labo
+
+# Comprobamos
+lsblk -e7
+
+# Copiamos el contenido de un directorio en el volúmen
+sudo cp -r /var/* /lvm_labo
+
+# Comprobamos que se hayan copiado los datos
+ls /lvm_labo </code></pre></div>
+
+<p><img src="lvm.png" alt=""></p>
+
+<p><strong>5. Añadir la 4ª partición al volumen lógico y extender el tamaño del sistema de ficheros para que ocupe el total del volumen. Comprobar que los datos copiados en el paso anterior siguen estando.</strong></p>
+
+<div><pre><code class="language-bash"># Creamos el volúmen físico
+sudo pvcreate -ff /dev/sdc2
+
+# Comprobamos
+sudo pvdisplay
+
+# Añadimos a nuestro grupo de volúmenes el volúmen físico que acabamos de crear
+sudo vgextend grupo_vol /dev/sdc2
+
+# Extendemos el volúmen lógico para que coja todo el espacio que puede coger en el grupo de volúmenes
+sudo lvextend -l +100%FREE /dev/grupo_vol/miVolumen
+
+# Comprobamos el tamaño del sistema de archivos
+df -h # En nombre que recibe es: dev/mapper/grupo_vol-miVolumen
+
+# Aumentamos el sistema de archivos para que coja todo el volumen que pueda
+sudo resize2fs -p /dev/mapper/grupo_vol-miVolumen
+
+# Comprobamos el tamaño del sistema de archivos
+df -h
+
+# Comprobamos que sigan los datos
+ls /lvm_labo </code></pre></div>
+
+<p><strong>6. Borrar el volumen lógico recién creado (utilizar los comandos LVM apropiados).</strong></p>
+
+<div><pre><code class="language-bash"># Desmontamos el sistema de archivos para poder borrarlo
+sudo umount /lvm_labo
+
+# Vaciamos el sistema de archivos (borrando todo lo que hay en el punto de montaje)
+sudo rm -rf /lvm_labo
+
+# Borramos el volúmen lógico
+sudo lvremove /dev/grupo_vol/miVolumen
+
+# Comprobamos que se haya borrado
+sudo lvdisplay</code></pre></div>
+
+<p><strong>7. Crear un sistema RAID 5 con 3 de las particiones. Crear un sistema de ficheros ext4 para el sistema RAID 5 y hacerlo accesible. Copiar el contenido de la carpeta /var a la carpeta del sistema RAID.</strong></p>
+
+<div><pre><code class="language-bash"># Creamos el sistema RAID 5
+sudo mdadm --create /dev/md0 --verbose --level=5 --raid-devices=3 /dev/sdb1 /deb/sdb2 /deb/sdc1
+
+# Formateamos el sistema que acabamos de crear
+sudo mkfs.ext4 /dev/md0
+
+# Lo montamos para que sea accesible
+sudo mkdir /raid5
+sudo mount -t ext4 /dev/md0 /raid5
+
+# Copiamos el conteido de la carpeta /var
+sudo cp -r /var/* /raid5
+
+# Comprobamos que haya archivos en /raid5
+ls /raid5</code></pre></div>
+
+<p><strong>8. Simular un fallo en el tercer disco (parámetro -f). Recuperar la información perdida usando la partición que quedó libre.</strong></p>
+
+<p><a href="https://youtu.be/-K27XkbKEpM">https://youtu.be/-K27XkbKEpM</a>
+<a href="https://youtu.be/f74ChMSwGYo">https://youtu.be/f74ChMSwGYo</a></p>
+
+<div><pre><code class="language-bash"># Examinamos el sistema RAID antes de simular el fallo
+sudo mdadm --detail /dev/md0
+
+# Simulamos el fallo, por ejemplo, en la partición sdc1
+sudo mdadm /dev/md0 -f /dev/sdc1
+
+# Comprobamos el estado del sistema RAID y vemos como da un fallo
+sudo mdadm --detail /dev/md0
+
+# También podemos visulizar el estado visualizando el siguiente archivo
+cat /proc/mdstat
+
+# Vamos a quitar el disco que ha &#39;fallado&#39; del RAID
+sudo mdadm /dev/md0 --remove /dev/sdc1
+
+# Vamos a &#39;comprar&#39; un disco nuevo y lo vamos a insertar. Ahora, ese disco nuevo que hemos comprado lo vamos a utilizar para nuestro sistema RAID
+sudo mdadm --add /dev/md0 /dev/sdc1
+
+#Ahora, automaticamente, nuestro sistema RAID está recuperando los archivos. Si consultado el archivo &#39;/proc/mdstat&#39; podemos ver como va aumentando el porcentaje y el sistema se está recuperando.
+cat /proc/mdstat</code></pre></div>
+
+<p><img src="RAID_recovery.png" alt=""></p>
+
+<p><strong>9. Desmontar y eliminar el dispositivo RAID. Eliminar el disco creado en el paso 2</strong></p>
+
+<div><pre><code class="language-bash"># Desmontamos el punto de anclaje del sistema RAID
+sudo mdadm --stop /dev/md0
+
+# Eliminiamos el sistema RAID
+sudo mdadm --remove /dev/md0
+
+# Borramos el sistema de archivos borrando el punto de anclaje
+rm -rf /raid5
+
+# Eliminamos el disco desde GCP</code></pre></div>
+
+<h1 id="toc_4">5. Copias de seguridad</h1>
+
+<p>1.asdf</p>
+
+<p>2.asdf</p>
+
+<p><strong>3.Instalar <code>rsnapshot</code> en el sistema y revisar este4 documento donde se detalla su configuración.</strong></p>
+
+<div><pre><code class="language-bash">sudo apt install rsnapshot</code></pre></div>
+
+<p><strong>4. Configurar <code>rsnapshot</code></strong></p>
+
+<p>Abrir archivo <code>/etc/rsnapshot.conf</code> y modificar la línea que empieza por <code>snapshot_root</code> por:</p>
+
+<div><pre><code class="language-none">snapshot_root       /backups</code></pre></div>
+
+<p>En el mismo archivo quitar las línea que empiecen por &#39;retain&#39; y añadir las siguientes linea:</p>
+
+<div><pre><code class="language-none">retain hourly 24
+retain daily 7
+retain weeekly 4</code></pre></div>
+
+<p>En el mismo archivo (en la sección BACKUP POINTS) vamos a escribir las siguientes lineas:</p>
+
+<div><pre><code class="language-none">backup  /home/          localhost/
+backup  /etc/           localhost/
+backup  /var/log/       localhost/</code></pre></div>
+
+<p><strong>5. Verificar que la configuración es correcta con el comando rsnapshot configtest</strong></p>
+
+<div><pre><code class="language-bash">rsnapshot configtest</code></pre></div>
+
+<p>Si encontramos errores, habrá que corregirlos para que <code>rsnapshot pueda funcionar</code>.</p>
+
+<p>Uno de los errores que hemos tenido, es que <code>rsnapshot</code> no puede escribir en la carpeta <code>/backups</code> así que le hemos tenido que dar permisos. El resto de erroes, has sido de formato del documento.</p>
+
+<p><strong>6. Realizar una copia de tipo “horaria” y revisar que los contenidos se han copiado correctamente.</strong></p>
+
+<div><pre><code class="language-bash"># Realizamos una prueba horaria en modo test
+rsnapshot hourly
+
+# Comprobamos que haya escrito en el directorio /backups
+ls /backups</code></pre></div>
+
+<p><strong>7. Crear una carpeta y un fichero nuevo en el directorio /home de tu usuario (incluye algo de texto en el fichero). Después, realizar una nueva copia de tipo “horaria”.</strong></p>
+
+<div><pre><code class="language-bash"># Creamos el directorio y el archivo
+mkdir /home/aingeru/rsnapshot
+touch /home/aingeru/rsnapshot/prueba.txt
+echo &quot;Lorem ipsum&quot; &gt; /home/aingeru/rsnapshot/prueba.txt
+
+# Ejecutamos el backup
+rsnapshot hourly</code></pre></div>
+
+<p><strong>8. Verificar que la nueva copia se ha hecho correctamente y revisar los cambios entre ambas copias con el comando rsnapshot-diff</strong></p>
+
+<p>Ahora, la nueva copia de seguridad está en <code>/backups/hourly.0</code> y la copia de seguridad anterior en <code>/backups/hourly.1</code>.</p>
+
+<p>Compararemos las dos copias se seguridad con el siguiente comando:</p>
+
+<div><pre><code class="language-bash">rsnapshot-diff -v /backups/hourly.0 /backups/hourly.1</code></pre></div>
+
+<h1 id="toc_5">6. Notas finales</h1>
+
+<p>Para borrar todo, vamos a borrar todos los puntos de montaje para que se borren todos los sistemas de archivos. Después, borraremos las particiones y por último quitaremos todos los discos desde GCP-console.</p>
+
+
+
+<script type="text/javascript">
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-(\w+)\b/i,t=0,n=_self.Prism={util:{encode:function(e){return e instanceof a?new a(e.type,n.util.encode(e.content),e.alias):"Array"===n.util.type(e)?e.map(n.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function(e){var t=n.util.type(e);switch(t){case"Object":var a={};for(var r in e)e.hasOwnProperty(r)&&(a[r]=n.util.clone(e[r]));return a;case"Array":return e.map&&e.map(function(e){return n.util.clone(e)})}return e}},languages:{extend:function(e,t){var a=n.util.clone(n.languages[e]);for(var r in t)a[r]=t[r];return a},insertBefore:function(e,t,a,r){r=r||n.languages;var l=r[e];if(2==arguments.length){a=arguments[1];for(var i in a)a.hasOwnProperty(i)&&(l[i]=a[i]);return l}var o={};for(var s in l)if(l.hasOwnProperty(s)){if(s==t)for(var i in a)a.hasOwnProperty(i)&&(o[i]=a[i]);o[s]=l[s]}return n.languages.DFS(n.languages,function(t,n){n===r[e]&&t!=e&&(this[t]=o)}),r[e]=o},DFS:function(e,t,a,r){r=r||{};for(var l in e)e.hasOwnProperty(l)&&(t.call(e,l,e[l],a||l),"Object"!==n.util.type(e[l])||r[n.util.objId(e[l])]?"Array"!==n.util.type(e[l])||r[n.util.objId(e[l])]||(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,l,r)):(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,null,r)))}},plugins:{},highlightAll:function(e,t){var a={callback:t,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};n.hooks.run("before-highlightall",a);for(var r,l=a.elements||document.querySelectorAll(a.selector),i=0;r=l[i++];)n.highlightElement(r,e===!0,a.callback)},highlightElement:function(t,a,r){for(var l,i,o=t;o&&!e.test(o.className);)o=o.parentNode;o&&(l=(o.className.match(e)||[,""])[1],i=n.languages[l]),t.className=t.className.replace(e,"").replace(/\s+/g," ")+" language-"+l,o=t.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+l);var s=t.textContent,u={element:t,language:l,grammar:i,code:s};if(!s||!i)return n.hooks.run("complete",u),void 0;if(n.hooks.run("before-highlight",u),a&&_self.Worker){var c=new Worker(n.filename);c.onmessage=function(e){u.highlightedCode=e.data,n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(u.element),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},c.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else u.highlightedCode=n.highlight(u.code,u.grammar,u.language),n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(t),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},highlight:function(e,t,r){var l=n.tokenize(e,t);return a.stringify(n.util.encode(l),r)},tokenize:function(e,t){var a=n.Token,r=[e],l=t.rest;if(l){for(var i in l)t[i]=l[i];delete t.rest}e:for(var i in t)if(t.hasOwnProperty(i)&&t[i]){var o=t[i];o="Array"===n.util.type(o)?o:[o];for(var s=0;s<o.length;++s){var u=o[s],c=u.inside,g=!!u.lookbehind,h=!!u.greedy,f=0,d=u.alias;u=u.pattern||u;for(var p=0;p<r.length;p++){var m=r[p];if(r.length>e.length)break e;if(!(m instanceof a)){u.lastIndex=0;var y=u.exec(m),v=1;if(!y&&h&&p!=r.length-1){var b=r[p+1].matchedStr||r[p+1],k=m+b;if(p<r.length-2&&(k+=r[p+2].matchedStr||r[p+2]),u.lastIndex=0,y=u.exec(k),!y)continue;var w=y.index+(g?y[1].length:0);if(w>=m.length)continue;var _=y.index+y[0].length,P=m.length+b.length;if(v=3,P>=_){if(r[p+1].greedy)continue;v=2,k=k.slice(0,P)}m=k}if(y){g&&(f=y[1].length);var w=y.index+f,y=y[0].slice(f),_=w+y.length,S=m.slice(0,w),O=m.slice(_),j=[p,v];S&&j.push(S);var A=new a(i,c?n.tokenize(y,c):y,d,y,h);j.push(A),O&&j.push(O),Array.prototype.splice.apply(r,j)}}}}}return r},hooks:{all:{},add:function(e,t){var a=n.hooks.all;a[e]=a[e]||[],a[e].push(t)},run:function(e,t){var a=n.hooks.all[e];if(a&&a.length)for(var r,l=0;r=a[l++];)r(t)}}},a=n.Token=function(e,t,n,a,r){this.type=e,this.content=t,this.alias=n,this.matchedStr=a||null,this.greedy=!!r};if(a.stringify=function(e,t,r){if("string"==typeof e)return e;if("Array"===n.util.type(e))return e.map(function(n){return a.stringify(n,t,e)}).join("");var l={type:e.type,content:a.stringify(e.content,t,r),tag:"span",classes:["token",e.type],attributes:{},language:t,parent:r};if("comment"==l.type&&(l.attributes.spellcheck="true"),e.alias){var i="Array"===n.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(l.classes,i)}n.hooks.run("wrap",l);var o="";for(var s in l.attributes)o+=(o?" ":"")+s+'="'+(l.attributes[s]||"")+'"';return"<"+l.tag+' class="'+l.classes.join(" ")+'" '+o+">"+l.content+"</"+l.tag+">"},!_self.document)return _self.addEventListener?(_self.addEventListener("message",function(e){var t=JSON.parse(e.data),a=t.language,r=t.code,l=t.immediateClose;_self.postMessage(n.highlight(r,n.languages[a],a)),l&&_self.close()},!1),_self.Prism):_self.Prism;var r=document.currentScript||[].slice.call(document.getElementsByTagName("script")).pop();return r&&(n.filename=r.src,document.addEventListener&&!r.hasAttribute("data-manual")&&document.addEventListener("DOMContentLoaded",n.highlightAll)),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+</script>
+
+<script type="text/javascript">
+!function(e){var t={variable:[{pattern:/\$?\(\([\w\W]+?\)\)/,inside:{variable:[{pattern:/(^\$\(\([\w\W]+)\)\)/,lookbehind:!0},/^\$\(\(/],number:/\b-?(?:0x[\dA-Fa-f]+|\d*\.?\d+(?:[Ee]-?\d+)?)\b/,operator:/--?|-=|\+\+?|\+=|!=?|~|\*\*?|\*=|\/=?|%=?|<<=?|>>=?|<=?|>=?|==?|&&?|&=|\^=?|\|\|?|\|=|\?|:/,punctuation:/\(\(?|\)\)?|,|;/}},{pattern:/\$\([^)]+\)|`[^`]+`/,inside:{variable:/^\$\(|^`|\)$|`$/}},/\$(?:[a-z0-9_#\?\*!@]+|\{[^}]+\})/i]};e.languages.bash={shebang:{pattern:/^#!\s*\/bin\/bash|^#!\s*\/bin\/sh/,alias:"important"},comment:{pattern:/(^|[^"{\\])#.*/,lookbehind:!0},string:[{pattern:/((?:^|[^<])<<\s*)(?:"|')?(\w+?)(?:"|')?\s*\r?\n(?:[\s\S])*?\r?\n\2/g,lookbehind:!0,inside:t},{pattern:/(["'])(?:\\\\|\\?[^\\])*?\1/g,inside:t}],variable:t.variable,"function":{pattern:/(^|\s|;|\||&)(?:alias|apropos|apt-get|aptitude|aspell|awk|basename|bash|bc|bg|builtin|bzip2|cal|cat|cd|cfdisk|chgrp|chmod|chown|chroot|chkconfig|cksum|clear|cmp|comm|command|cp|cron|crontab|csplit|cut|date|dc|dd|ddrescue|df|diff|diff3|dig|dir|dircolors|dirname|dirs|dmesg|du|egrep|eject|enable|env|ethtool|eval|exec|expand|expect|export|expr|fdformat|fdisk|fg|fgrep|file|find|fmt|fold|format|free|fsck|ftp|fuser|gawk|getopts|git|grep|groupadd|groupdel|groupmod|groups|gzip|hash|head|help|hg|history|hostname|htop|iconv|id|ifconfig|ifdown|ifup|import|install|jobs|join|kill|killall|less|link|ln|locate|logname|logout|look|lpc|lpr|lprint|lprintd|lprintq|lprm|ls|lsof|make|man|mkdir|mkfifo|mkisofs|mknod|more|most|mount|mtools|mtr|mv|mmv|nano|netstat|nice|nl|nohup|notify-send|nslookup|open|op|passwd|paste|pathchk|ping|pkill|popd|pr|printcap|printenv|printf|ps|pushd|pv|pwd|quota|quotacheck|quotactl|ram|rar|rcp|read|readarray|readonly|reboot|rename|renice|remsync|rev|rm|rmdir|rsync|screen|scp|sdiff|sed|seq|service|sftp|shift|shopt|shutdown|sleep|slocate|sort|source|split|ssh|stat|strace|su|sudo|sum|suspend|sync|tail|tar|tee|test|time|timeout|times|touch|top|traceroute|trap|tr|tsort|tty|type|ulimit|umask|umount|unalias|uname|unexpand|uniq|units|unrar|unshar|uptime|useradd|userdel|usermod|users|uuencode|uudecode|v|vdir|vi|vmstat|wait|watch|wc|wget|whereis|which|who|whoami|write|xargs|xdg-open|yes|zip)(?=$|\s|;|\||&)/,lookbehind:!0},keyword:{pattern:/(^|\s|;|\||&)(?:let|:|\.|if|then|else|elif|fi|for|break|continue|while|in|case|function|select|do|done|until|echo|exit|return|set|declare)(?=$|\s|;|\||&)/,lookbehind:!0},"boolean":{pattern:/(^|\s|;|\||&)(?:true|false)(?=$|\s|;|\||&)/,lookbehind:!0},operator:/&&?|\|\|?|==?|!=?|<<<?|>>|<=?|>=?|=~/,punctuation:/\$?\(\(?|\)\)?|\.\.|[{}[\];]/};var a=t.variable[1].inside;a["function"]=e.languages.bash["function"],a.keyword=e.languages.bash.keyword,a.boolean=e.languages.bash.boolean,a.operator=e.languages.bash.operator,a.punctuation=e.languages.bash.punctuation}(Prism);
+</script>
+
+
+</body>
+
+</html>
